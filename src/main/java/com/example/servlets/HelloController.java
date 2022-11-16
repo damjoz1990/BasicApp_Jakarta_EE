@@ -1,6 +1,5 @@
-package com.example.web_app_jee_semvi;
+package com.example.servlets;
 
-import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
