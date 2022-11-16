@@ -1,15 +1,10 @@
-package com.example.web_app_jee_semvi;
+package com.example.servlets;
 
-import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
-import java.io.IOException;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Enumeration;
-
-import static java.util.Collection.*;
 
 @WebServlet("/browser")
 public class BrowserCheckController extends HttpServlet {
